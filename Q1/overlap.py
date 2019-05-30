@@ -2,7 +2,7 @@
 def check_overlap(x1,x2,x3,x4):
     #When 2 lines overlap, one of them or both co-ordinates of any line is in between the two co-ordinates of other line
     #Returns true if overlaps else false
-    return (x3>=x1 and x3<=x2) or (x1>=x3 and x1<=x4) or (x1>=x4 and x1<=x2)
+    return (x1>=x3 and x1<=x4) or (x2>=x3 and x2<=x4) or (x3>=x1 and x3<=x2) or (x4>=x1 and x4<=x2)
 
 
 #Enter 4 digits at once using space Line 1 (x1, x2) Line 2 (x3, x4)
@@ -26,7 +26,7 @@ print(ans)
 #         self.x4 = x4
 
 #     def check_overlap(self):
-#         return (self.x3 >= self.x1 and self.x3 <= self.x2) or (self.x1 >= self.x3 and self.x1 <= self.x4) or (self.x1 >= self.x4 and self.x1 <= self.x2)
+#         return (self.x1 >= self.x3 and self.x1 <= self.x4) or (self.x2 >= self.x3 and self.x2 <= self.x4) or (self.x3 >= self.x1 and self.x3 <= self.x2) or (self.x4 >= self.x1 and self.x4 <= self.x2)
 
 # if __name__ == '__main__':
 #     x1,x2,x3,x4 = map(int, raw_input().split())
