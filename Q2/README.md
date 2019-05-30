@@ -1,12 +1,15 @@
-Instructions
+# Instructions
 
 1. Run logic.py and enter 2 strings with a space. For example: 1.0.2 2.0.1
 
-Working:
+# Working:
 
 CompareVersion.py - Actual library that perfoms the function.
+
 Returns 0 if both versions are same
+
 Returns 1 if the first version is greater than second version
+
 Return -1 if the second version is greater than second version.
 
 test.py - Testing all functions with different cases.
