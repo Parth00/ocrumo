@@ -1,0 +1,20 @@
+Metadata-Version: 1.0
+Name: lrucache
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Parth00/ormuco/tree/master/Q3
+Author: Parth Dubal
+Author-email: dubalparth@gmail.com
+License: UNKNOWN
+Description: # Working
+        
+        1. Creating cache
+        2. Creating cache elements
+        3. Pushing the elements in to the cache
+        4. Deleting particular element
+        5. Deleting expired elements in the cache
+        
+        # Not working
+        
+        1. Geolocation Distributed
+Platform: UNKNOWN

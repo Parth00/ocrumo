@@ -1,0 +1,7 @@
+README.md
+setup.py
+lrucache.egg-info/PKG-INFO
+lrucache.egg-info/SOURCES.txt
+lrucache.egg-info/dependency_links.txt
+lrucache.egg-info/not-zip-safe
+lrucache.egg-info/top_level.txt
